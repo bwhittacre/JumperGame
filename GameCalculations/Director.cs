@@ -6,6 +6,11 @@ class Director
 {
     //The class that combines all others into a cohesive program. Runs the main game loop, by generating the board,
     //the guesses, and whether the guess was correct or not.
+
+    public Director()
+    {
+
+    }
     public static Dictionary dictionary = new Dictionary();
     public static GameBoard board = new GameBoard();
     public static WordMath word = new WordMath();

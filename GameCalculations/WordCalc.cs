@@ -2,9 +2,14 @@ using System;
 using System.Collections.Generic;
 namespace unit03_jumper.GameCalculations;
 
-class WordMath
+public class WordMath
 {
 //The actual calculation behind the amonut of words needed to guess the word.
+
+    public WordMath()
+    {
+
+    }
     public static int printWord(List<char> lettersGuessed, String newWord)
     {
         //This method compares the letters the player has guessed to the word itself to see how

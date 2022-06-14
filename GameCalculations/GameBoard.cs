@@ -5,6 +5,11 @@ namespace unit03_jumper.GameCalculations;
 class GameBoard
 {
 //The game board in all it's stages. The player gets four guesses before they lose and need to restart.
+
+    public GameBoard()
+    {
+
+    }
     public static void printBoard(int wrong)
     {
         //The actual iterations of the game board, cycled by the amount of wrong guesses.
